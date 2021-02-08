@@ -4,19 +4,33 @@ Little project with CRUD table
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The first part of interview is available [here](https://miro.com/app/board/o9J_lV40MJ4=/)
+
+The following instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-This project currently run on Ubuntu 18.04.4 LTS x86_64 with 12.18.3 version of node 
+This project currently run on Ubuntu 18.04.4 LTS x86_64 with 12.18.3 version of node and 6.14.9 of npm
 
 ### Installing
 
-Before all, install dependencies:
+Be careful to be compliant with prerequisites.
+
+To install nodejs, visite officiel [website](https://nodejs.org/en/)
+
+Prefer a node version manager like [nvm](https://github.com/nvm-sh/nvm)
+
+## Deployment
+
+Before all, install dependencies of frontend app:
 ```
 yarn install
 ```
-then build production environement:
+also install server dependencies:
+```
+yarn --cwd /server
+```
+then build production sources that are going to be exposed by the server: 
 ```
 yarn build
 ```
@@ -25,22 +39,6 @@ finally, run the custom server (there is a little server proxy to expose sources
 ```
 yarn prod
 ```
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
