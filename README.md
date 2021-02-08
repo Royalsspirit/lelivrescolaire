@@ -1,12 +1,23 @@
-# Project Title
+# Lelivrescolaire
 
 Little project with CRUD table
 
 ## Getting Started
 
-The first part of interview is available [here](https://miro.com/app/board/o9J_lV40MJ4=/)
+The first part of the interview is available [here](https://miro.com/app/board/o9J_lV40MJ4=/)
 
-The following instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The top left frame is a Conceptual Data Model.
+
+The top right frame is a server architecture.
+
+The bottom right is a tool which could associate exercice to a candidate.
+
+And the bottom left is C program which could generate several languages boilerplate
+
+------
+
+The following instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
@@ -19,6 +30,12 @@ Be careful to be compliant with prerequisites.
 To install nodejs, visite officiel [website](https://nodejs.org/en/)
 
 Prefer a node version manager like [nvm](https://github.com/nvm-sh/nvm)
+
+After setting up a environment and installing the dependencies, you will be able to run the development app with:
+
+```
+yarn start
+```
 
 ## Deployment
 
@@ -42,10 +59,9 @@ yarn prod
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
+* [reactjs](https://github.com/facebook/react) - React is a JavaScript library for building user interfaces.
+* [react-redux](https://maven.apache.org/) - Official React bindings for Redux.
+* [react-bootstrap](https://rometools.github.io)- React Bootstrap - The most popular front-end framework.
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
