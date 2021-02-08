@@ -1,0 +1,42 @@
+[
+  {
+     "id": 1,
+     "name": "etudiant 1",
+     "lastname": "etudiant nom 1",
+     "address": "etudiant street",
+     "postcode":"69008",
+      "city":"lyon"
+  },
+  {
+     "id":2,
+     "name": "etudiant 2",
+     "lastname": "etudiant nom 2",
+     "address": "etudiant street 2",
+     "postcode":"69008",
+      "city":"lyon"
+  },
+  {
+     "id":3,
+     "name": "etudiant 3",
+     "lastname": "etudiant nom 3",
+     "address": "etudiant street 3",
+     "postcode":"69008",
+      "city":"lyon"
+  },
+  {
+     "id":4,
+     "name": "etudiant 4",
+     "lastname": "etudiant nom 4",
+     "address": "etudiant street 4",
+     "postcode":"69008",
+      "city":"lyon"
+  },
+  {
+     "id":5,
+     "name": "etudiant 5",
+     "lastname": "etudiant nom 5",
+     "address": "etudiant street 5",
+     "postcode":"69008",
+      "city":"lyon"
+  }
+]
